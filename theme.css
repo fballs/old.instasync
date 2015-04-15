@@ -39,20 +39,13 @@ body.dim, body {
     background-repeat: no-repeat;
     background-position: center
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #FFF;
-    background-color: transparent;
-}
-
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    background-color: #EEE;
 }
 .navbar-nav > li > a {
     background-color: #2284B5;
     margin-left: 5px;
     color: #fff !important;
-
     padding: 5px 20px;
 
 }
@@ -61,7 +54,7 @@ body.dim, body {
     background-color: #196F9A !important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #196F9A;
+    background-color: #196F9A !important;
 }
 .navbar-nav > li > a {
     text-shadow: none !important;
