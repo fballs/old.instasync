@@ -47,8 +47,13 @@ body.dim, body {
     margin-left: 5px;
     color: #fff !important;
     padding: 5px 20px;
-
 }
+.navbar-default .navbar-nav > li > a {
+    background-color: #2284B5 !important;
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-left: 5px;
+}    
 .navbar-nav > li > a:hover, .navbar-nav > li > a:active {
     transition: background-color 0.2s ease-in-out 0s;
     background-color: #196F9A !important;
@@ -179,7 +184,7 @@ body.dim .footer {
   background:none;
   background-color: #fff;
   margin: 20px auto;
-  width: 800px;
+  width: 70%;
   position: relative;
   left: 15%;
 }
