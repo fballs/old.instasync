@@ -195,11 +195,11 @@ body.dim .footer {
     height: 279px !important;
 }
 #poll_column {
-    padding-top: 2px;
+    padding-top: 8px;
 }
-.btn-xs {
-    position: relative;
-    top: 2px;
+#create_poll_btn_column {
+    margin-bottom: 0px !important;
+    margin-top: 4px !important;
 }
 .open > a {
     text-decoration: none !important;
